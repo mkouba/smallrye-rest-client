@@ -42,24 +42,28 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Integration with fault-tolerance -->
+    <!-- TODO: Tests for integration with fault-tolerance and metrics are ignored for now -->
     <dependency>
       <groupId>org.eclipse.microprofile.fault-tolerance</groupId>
       <artifactId>microprofile-fault-tolerance-api</artifactId>
       <scope>test</scope>
     </dependency>
 
-    <dependency>
+    <!-- dependency>
       <groupId>io.smallrye</groupId>
       <artifactId>smallrye-fault-tolerance</artifactId>
-    </dependency>
+    </dependency-->
 
-    <!-- TODO: Integration with metrics -->
     <dependency>
       <groupId>org.eclipse.microprofile.metrics</groupId>
       <artifactId>microprofile-metrics-api</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <!-- dependency>
+      <groupId>io.smallrye</groupId>
+      <artifactId>smallrye-metrics</artifactId>
+    </dependency-->
 
   </dependencies>
 
